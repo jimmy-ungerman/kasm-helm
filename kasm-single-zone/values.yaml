@@ -29,7 +29,12 @@ global:
 
   ## @param global.hostname Global hostname to use for TLS Certificates and ingress URL
   ##
-  hostname: ""
+  hostname: "kasm.uds.dev"
+
+  ## @param global.ingressClass Global ingress class to use for ingress object
+  ##
+  ingressClassName: "nginx"
+
   ## @param global.altHostnames Global list of alternate hostnames to use for TLS Certificates
   ##
   altHostnames: []
