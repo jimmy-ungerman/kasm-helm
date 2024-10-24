@@ -33,7 +33,7 @@ global:
 
   ## @param global.ingressClass Global ingress class to use for ingress object
   ##
-  ingressClassName: "nginx"
+  ingressClassName: ""
 
   ## @param global.altHostnames Global list of alternate hostnames to use for TLS Certificates
   ##
